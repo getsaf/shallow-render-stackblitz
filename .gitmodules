@@ -1,0 +1,3 @@
+[submodule "shallow-render"]
+	path = shallow-render
+	url = https://github.com/getsaf/shallow-render.git

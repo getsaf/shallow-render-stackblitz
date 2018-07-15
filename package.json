@@ -1,0 +1,46 @@
+{
+  "name": "shallow-render-stackblitz",
+  "version": "1.0.0",
+  "description": "Example usage of shallow-render",
+  "main": "main.ts",
+  "scripts": {
+    "test": "open https://stackblitz.com/github/getsaf/shallow-render-stackblitz",
+    "update": "./update.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/getsaf/shallow-render-stackblitz.git"
+  },
+  "keywords": [
+    "shallow",
+    "render",
+    "angular",
+    "test",
+    "shallow-render",
+    "enzyme",
+    "TestBed"
+  ],
+  "author": "Brandon Domingue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getsaf/shallow-render-stackblitz/issues"
+  },
+  "homepage": "https://github.com/getsaf/shallow-render-examples#readme",
+  "dependencies": {
+    "@angular/common": "^6.0.9",
+    "@angular/compiler": "^6.0.9",
+    "@angular/core": "^6.0.9",
+    "@angular/forms": "^6.0.9",
+    "@angular/platform-browser": "^6.0.9",
+    "@angular/platform-browser-dynamic": "^6.0.9",
+    "@angular/router": "^6.0.9",
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^10.5.2",
+    "core-js": "^2.5.7",
+    "jasmine-core": "^3.1.0",
+    "ng-mocks": "^6.1.0",
+    "rxjs": "^6.2.2",
+    "shallow-render": "*",
+    "zone.js": "^0.8.26"
+  }
+}
