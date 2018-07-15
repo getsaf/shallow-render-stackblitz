@@ -1,5 +1,6 @@
 #!/bin/sh
 git submodule update
+cd shallow-render && git pull && cd -
 
 rm -rf examples
 cp -r ./shallow-render/lib/examples .
