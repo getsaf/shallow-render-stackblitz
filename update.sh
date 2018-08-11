@@ -1,6 +1,6 @@
 #!/bin/sh
-git submodule update
-cd shallow-render && git pull && cd -
+rm -rf shallow-render
+git clone https://github.com/getsaf/shallow-render.git
 
 rm -rf examples
 cp -r ./shallow-render/lib/examples .

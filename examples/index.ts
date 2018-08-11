@@ -1,4 +1,5 @@
 import './component-with-bindings.spec';
+import './component-with-content-child.spec';
 import './component-with-custom-provider.spec';
 import './component-with-directive.spec';
 import './component-with-routing.spec';
@@ -12,6 +13,7 @@ import './multiple-components.spec';
 import './multiple-modules.spec';
 import './simple-component.spec';
 import './structural-directive.spec';
+import './template-with-hash-references.spec';
 import './using-always-mock.spec';
 import './using-always-provide.spec';
 import './using-dont-mock.spec';
