@@ -10,4 +10,4 @@ do
 done
 
 sed -i '' "s/import {.*Shallow.*} from .*;/import { Shallow } from 'shallow-render';/" ./examples/*.spec.ts
-
+npm i shallow-render@latest
