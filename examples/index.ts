@@ -14,6 +14,7 @@ import './multiple-modules.spec';
 import './simple-component.spec';
 import './structural-directive.spec';
 import './template-with-hash-references.spec';
+import './using-always-import.spec';
 import './using-always-mock.spec';
 import './using-always-provide.spec';
 import './using-dont-mock.spec';
