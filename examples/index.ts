@@ -8,6 +8,7 @@ import './directive-only-test.spec';
 import './mocking-injection-tokens.spec';
 import './mocking-pipes.spec';
 import './mocking-static-methods.spec';
+import './module-with-app-initializer.spec';
 import './module-with-providers.spec';
 import './multiple-components.spec';
 import './multiple-modules.spec';
