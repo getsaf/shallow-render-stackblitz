@@ -1,4 +1,4 @@
-import { Injectable, Component, NgModule, ModuleWithProviders } from '@angular/core';
+import { Component, Injectable, ModuleWithProviders, NgModule } from '@angular/core';
 import { Shallow } from 'shallow-render';
 
 ////// Module Setup //////
@@ -39,7 +39,7 @@ describe('module with forRoot', () => {
   });
 
   it('Uses the color from the RedService', async () => {
-    const {element} = await shallow.render('<color-label></color-label>');
+    const {element} = await shallow.render();
 
     expect(element.nativeElement.innerText).toBe('MOCKED COLOR');
   });
