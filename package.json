@@ -39,7 +39,7 @@
     "core-js": "^2.5.7",
     "jasmine-core": "^3.3.0",
     "rxjs": "^6.3.3",
-    "shallow-render": "^8.0.1",
+    "shallow-render": "^8.0.4",
     "zone.js": "^0.8.26"
   }
 }
