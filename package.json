@@ -4,7 +4,7 @@
   "description": "Example usage of shallow-render",
   "main": "main.ts",
   "scripts": {
-    "test": "open https://stackblitz.com/github/getsaf/shallow-render-stackblitz",
+    "test": "karma",
     "update": "./update.sh"
   },
   "repository": {
@@ -27,19 +27,21 @@
   },
   "homepage": "https://github.com/getsaf/shallow-render-examples#readme",
   "dependencies": {
-    "@angular/common": "7.x",
-    "@angular/compiler": "7.x",
-    "@angular/core": "7.x",
-    "@angular/forms": "7.x",
-    "@angular/platform-browser": "7.x",
-    "@angular/platform-browser-dynamic": "7.x",
-    "@angular/router": "7.x",
-    "@types/jasmine": "^2.8.9",
+    "@angular/common": "8.x",
+    "@angular/compiler": "8.x",
+    "@angular/core": "8.x",
+    "@angular/forms": "8.x",
+    "@angular/platform-browser": "8.x",
+    "@angular/platform-browser-dynamic": "8.x",
+    "@angular/router": "8.x",
+    "@types/jasmine": "^3.3.8",
     "@types/node": "^10.12.1",
-    "core-js": "^2.5.7",
-    "jasmine-core": "^3.3.0",
-    "rxjs": "^6.3.3",
-    "shallow-render": "^8.0.4",
-    "zone.js": "^0.8.26"
+    "core-js": "^3.1.4",
+    "jasmine-core": "^3.4.0",
+    "ng-mocks": "^7.8.0",
+    "rxjs": "^6.4.0",
+    "shallow-render": "8.x",
+    "typescript": "~3.4.3",
+    "zone.js": "^0.9.1"
   }
 }

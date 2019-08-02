@@ -2,6 +2,7 @@ import './component-with-bindings.spec';
 import './component-with-content-child.spec';
 import './component-with-custom-provider.spec';
 import './component-with-directive.spec';
+import './component-with-ng-component-outlet.spec';
 import './component-with-routing.spec';
 import './component-with-service.spec';
 import './directive-only-test.spec';
