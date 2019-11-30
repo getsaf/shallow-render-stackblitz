@@ -28,4 +28,5 @@ import './using-always-provide.spec';
 import './using-dont-mock.spec';
 import './using-never-mock.spec';
 import './using-no-template-render.spec';
+import './using-provide-mock.spec';
 import './using-replacement-modules.spec';
