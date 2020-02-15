@@ -39,9 +39,8 @@
     "core-js": "^2.5.7",
     "jasmine-core": "~3.5.0",
     "rxjs": "~6.5.0",
+    "shallow-render": "^9.0.0-0",
+    "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
-  },
-  "devDependencies": {
-    "shallow-render": "9.0.0-0"
   }
 }
