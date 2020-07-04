@@ -7,9 +7,7 @@ import { Shallow } from 'shallow-render';
 
 @Component({
   selector: 'custom-form',
-  template: `
-    <input id="customInput" [formControl]="myControl" />
-  `
+  template: '<input id="customInput" [formControl]="myControl" />',
 })
 class CustomFormComponent implements OnInit, OnDestroy {
   myControl = new FormControl('I am complete');
@@ -19,7 +17,7 @@ class CustomFormComponent implements OnInit, OnDestroy {
     this.subscription.add(this.myControl.valueChanges.subscribe(change => this.inputHandler(change)));
   }
 
-  inputHandler(text: string) {
+  inputHandler(_text: string) {
     //  implementation
     return 2 + 2;
   }
@@ -31,7 +29,7 @@ class CustomFormComponent implements OnInit, OnDestroy {
 
 @NgModule({
   imports: [ReactiveFormsModule],
-  declarations: [CustomFormComponent]
+  declarations: [CustomFormComponent],
 })
 class CustomInputModule {}
 //////////////////////////

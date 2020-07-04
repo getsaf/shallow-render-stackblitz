@@ -10,27 +10,23 @@ interface MyEvent {
 
 @Component({
   selector: 'inner-component',
-  template: `
-    <p>Hello</p>
-  `
+  template: '<p>Hello</p>',
 })
 class InnerComponent {
   @Output() output = new EventEmitter<MyEvent>();
 }
 @Component({
   selector: 'outer-component',
-  template: `
-    <inner-component (output)="outputHandler($event)"></inner-component>
-  `
+  template: '<inner-component (output)="outputHandler($event)"></inner-component>',
 })
 class OuterComponent {
-  outputHandler(event: MyEvent) {
+  outputHandler(_event: MyEvent) {
     // implementation
   }
 }
 
 @NgModule({
-  declarations: [InnerComponent, OuterComponent]
+  declarations: [InnerComponent, OuterComponent],
 })
 class CustomInputModule {}
 //////////////////////////
