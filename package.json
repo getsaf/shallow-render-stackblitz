@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/getsaf/shallow-render-examples#readme",
   "dependencies": {
+    "@angular/animations": "11.x",
     "@angular/common": "11.x",
     "@angular/compiler": "11.x",
     "@angular/core": "11.x",
     "@angular/forms": "11.x",
     "@angular/platform-browser": "11.x",
-    "@angular/animations": "11.x",
     "@angular/platform-browser-dynamic": "11.x",
     "@angular/router": "11.x",
     "@types/jasmine": "~3.6.0",
