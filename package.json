@@ -32,6 +32,8 @@
     "@angular/core": "11.x",
     "@angular/forms": "11.x",
     "@angular/platform-browser": "11.x",
+    "@angular/animations": "11.x",
+    "@angular/platform-browser-dynamic": "11.x",
     "@angular/router": "11.x",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
